@@ -1,7 +1,7 @@
 // TP#3: Juego interactivo libre
 // Antonella Bogado Benuzzi 81745/3
 // Comisión 3 
-// LINK YOUTUBE
+// https://youtu.be/JduoCQdYSzA
 
 // variable de estado: 
 int estado=0; 
