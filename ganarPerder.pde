@@ -1,5 +1,6 @@
 void ganar() {
   // dibuja la pantalla cuando gana
+  
   push();
   background(247, 181, 95);
   image(gatito, gatoX, gatoY);  
@@ -17,6 +18,7 @@ void ganar() {
 
 void perder() {
   // dibuja la pantalla cuando pierde
+  
   push();
   background(247, 181, 95);
   

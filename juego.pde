@@ -17,13 +17,6 @@ int puntaje = 0;
 
 void juego() {
   // dibuja la pantalla del juego
-  
-  // CARGA DE IMAGENES
-  for (int i=0; i < cant; i++) {
-    agua[i] = loadImage("agua.png");
-    lana[i] = loadImage("lana.png");
-  }
- 
   push();
   background(247, 181, 95);
   fill(0);
@@ -31,21 +24,16 @@ void juego() {
   text("Puntaje:" + puntaje, 60, 25);
   
   image(gatito, gatoX, gatoY);  
+  gatoX += velGato; // velocidad del gato
   
+  // ubicación y velocidad de los objetos que caen
   for (int i=0; i < cant; i++) {
     image(lana[i], lanaX[i], lanaY[i]);
     image(agua[i], aguaX[i], aguaY[i]);
-  }
-  
-  for (int v=0; v < cant; v++) {
-    lanaY[v] += velObjetos;
-    aguaY[v] += velObjetos;
-  }
-  
-  gatoX += velGato; // velocidad del gato
-  
-  // COLISIONES
-  for (int i=0; i < cant; i++) {
+    lanaY[i] += velObjetos;
+    aguaY[i] += velObjetos;
+    
+    // GANAR O PERDER
     if (colisionDosSupCirculares(gatoX, gatoY, 55, lanaX[i], lanaY[i], 50)) {
      lanaX[i] = -200;
      lanaY[i] = -100;
@@ -57,18 +45,16 @@ void juego() {
                aguaY[8] > height && aguaY[9] > height) {
       cambiarAGanar();
     }
-    
   }
-
   pop();
 }
 
 // MOVIMIENTO HORIZONTAL DEL GATO
 void keyPressed() {
   if (keyCode == RIGHT) {       
-    velGato = 9;                  
+    velGato = 7;                  
   } else if (keyCode == LEFT) { 
-    velGato = -9;         
+    velGato = -7;         
   }
 }
 

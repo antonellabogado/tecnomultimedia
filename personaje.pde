@@ -1,11 +1,5 @@
-
-
 void eligeATuPersonaje () {
   // dibuja la pantalla para elegir al personaje
-  
-  for (int g=0; g < gato.length; g++){
-    gato[g] = loadImage("gato_" + g + ".png");
-  }
   
   push();
   background(242);

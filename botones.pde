@@ -18,6 +18,7 @@ void botonAtras() {
 }
 
 void botonCircular(float posX, float posY, float botonX, float botonY) {
+  // dibuja un boton circular
   noStroke();
   ellipse(posX, posY, botonX, botonY);
 }

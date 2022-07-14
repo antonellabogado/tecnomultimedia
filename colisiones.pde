@@ -1,9 +1,9 @@
 // FUNCIONES PARA EVALUAR COLISIONES:
 
 boolean colisionCoordenadaConSupCircular(float x1, float y1, float r, float x2, float y2) {
-  //evalua si hay colision de x1,y1 en el circulo x,y con radio r:
+  //evalua si hay colision de x1,y1 en el circulo x2,y2 con radio r:
   float distancia = dist( x1, y1, x2, y2);
-  //como resultado, devolvemos true/false si distancia es menor que r_:
+  //como resultado, devolvemos true/false si distancia es menor que r:
   return distancia<=r;
 }
 

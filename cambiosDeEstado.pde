@@ -1,3 +1,5 @@
+// FUNCIONES PARA CAMBIAR DE ESTADOS
+
 void cambiarAInicio(){
   estado = 0;
 }
@@ -15,7 +17,7 @@ void cambiarAPersonaje(){
 }
 
 void cambiarAJuego() {
-  //asigna todos los valores iniciales del estado jugando:
+  //asigna todos los valores iniciales del estado juego:
   estado = 4;
   
   gatoX = 300; 
@@ -32,6 +34,7 @@ void cambiarAJuego() {
   }
   
 }
+
 void cambiarAGanar(){
  estado = 5; 
 }

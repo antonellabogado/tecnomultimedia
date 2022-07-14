@@ -1,11 +1,8 @@
-PImage fondoInicio; 
-
 void inicio() {
   // dibuja la pantalla de inicio
-  fondoInicio =  loadImage ("fondoInicio.png");
   background(fondoInicio);
-  
   push();
+  
   fill(0);
   text("KITTENS GAME", width/2, height/3);
 
@@ -14,8 +11,7 @@ void inicio() {
   textSize(16);
   botonRectangular((width/2)/2, height/2 + 100 , 130, 50, "Instrucciones");
   botonRectangular((width/2)/2 + width/2, height/2 + 100 , 130, 50, "Créditos");  
-  pop();
-  
+  pop();  
 }
 
 void instrucciones() {
@@ -24,7 +20,7 @@ void instrucciones() {
   background(fondoInicio);
   textSize(24);
   text("INSTRUCCIONES", width/2, height/3);
-  text("El objetivo es que el gatito atrape \n la mayor cantidad de bolas de lana, \n pero ¡OJO! no vayas a mojarlo con agua \n ¡Mueve al gatito con las flechas!", width/2, height/2);
+  text("El objetivo es que el gatito atrape \n la mayor cantidad de bolas de lana, \n pero ¡OJO! si lo mojas con agua perdes. \n ¡Mueve al gatito con las flechas!", width/2, height/2);
   botonAtras(); 
   pop();
 }
