@@ -1,7 +1,7 @@
 // TP#5: Programación Orientada a Objetos
 // Antonella Bogado Benuzzi 81745/3
 // Comisión 3
-// Link a youtube
+// https://youtu.be/mWQRjFpWokk
 
 Principal principal;
 import processing.sound.*;
