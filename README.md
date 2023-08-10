@@ -1,4 +1,4 @@
 # tecnomultimedia
-Trabajos prácticos de la materia Tecnología Multimedial 1 de Diseño Multimedial (UNLP).
+Trabajos prácticos de la materia Tecnología Multimedial 1 y 2 de Diseño Multimedial (UNLP).
 
-Introducción a la programación con Processing
+Programación con Processing y p5js
