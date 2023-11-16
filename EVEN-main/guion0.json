@@ -1,0 +1,89 @@
+{   "audio" : "audios/audio2.mp3",
+    "modelo":"modelos/modelo0.glb",
+    "fondo":"rgb(0,0,0)",
+    "data" :
+        [
+            {
+                 "tiempo":"00:00",
+                 "camara":"Cam1",
+                 "target":"Target1",
+                 "nombre":"Valle"
+            },
+            {
+               "tiempo":"00:06",
+               "camara":"Cam1",
+               "duracion":4000,
+               "target":"Target6",
+               "nombre":"RecorridoValle"
+              
+          },
+            {
+                 "tiempo":"00:013",
+                 "camara":"Cam2",
+                 "duracion":5000,
+                 "target":"Target2",
+                 "nombre":"Rio"
+            },
+            {
+                 "tiempo":"00:20",
+                 "camara":"Cam3",
+                 "duracion":5000,
+                 "target":"Target3",
+                 "nombre":"Cascada"
+            },
+            {
+               "tiempo":"00:29",
+               "camara":"Cam3",
+               "target":"Target4",
+               "nombre":"Tubos"
+          },
+            {
+                 "tiempo":"00:35",
+                 "camara":"Cam3",
+                 "duracion":10000,
+                 "target":"Target5",
+                 "nombre":"Techo"
+            },
+          
+            {
+               "tiempo":"00:50",
+               "camara":"Cam3",
+               "duracion":10000,
+               "target":"Target4",
+               "nombre":"Piso"
+          }          ,
+          
+            {
+               "tiempo":"01:05",
+               "camara":"Cam3",
+               "duracion":2000,
+               "target":"Target7",
+               "nombre":"Arboles"
+          }        ,
+          
+          
+          {
+             "tiempo":"01:08",
+             "camara":"Cam4",
+             "duracion":5000,
+             "target":"Target7",
+             "nombre":"RecorridoArboles"
+        }  ,  
+          
+          {
+             "tiempo":"01:17",
+             "camara":"Cam4",
+             "duracion":1000,
+             "target":"Target8",
+             "nombre":"Botones"
+        } ,  
+          
+        {
+           "tiempo":"01:17",
+           "camara":"Cam5",
+           "duracion":1000,
+           "target":"Target8",
+           "nombre":"Final"
+      }
+        ]
+}
